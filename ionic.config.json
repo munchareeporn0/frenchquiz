@@ -1,0 +1,14 @@
+{
+  "name": "myFrenchApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "677d9f67",
+  "proxies": [
+    {
+      "path": "gameAPI",
+      "proxyUrl": "https://us-central1-frenchgame-228900.cloudfunctions.net/"
+    }
+  ]
+}

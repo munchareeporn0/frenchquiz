@@ -1,0 +1,47 @@
+page-intro {
+    .p{
+        margin: 0%;
+    }
+    ion-spinner * {
+        width: 25px;
+        height: 25px;
+        stroke: #444;
+        fill: #222;
+      }
+    .loading {
+        height: 40%;
+        margin-top:auto;
+        margin-bottom: auto; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bg{
+        background-color: #242847;
+        // background-image: url(../../assets/imgs/img-intro2.png);
+
+        // /* Full height */
+        // height: 100%; 
+      
+        // /* Center and scale the image nicely */
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+    }
+    .img-1{
+        border: 0px !important;
+        border-bottom-color: transparent !important;
+        background-image: none !important;
+        border-bottom: none !important;
+        width: 250px;
+        height: 250px;
+        margin: auto;
+    }
+    .img-2{
+        border: 0px !important;
+        border-bottom-color: transparent !important;
+        background-image: none !important;
+        border-bottom: none !important;
+        margin: auto;
+    }
+}
